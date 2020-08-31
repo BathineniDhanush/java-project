@@ -1,0 +1,21 @@
+body,html{height:100%;margin: 0;}
+* {
+  box-sizing: border-box;
+}
+.p{
+  margin-left:5px;
+  margin-right: 125px;
+  position: sticky;
+  margin-top:auto;
+  padding-bottom:300px;
+  padding-top: 100px;
+  background-color: #ffffff;
+  opacity: 0.75;
+}
+.row{display: flex;margin-right: 0px;}
+.column{flex: 50%;padding:25px;height:200px; }
+.btn-primary{background-color: #002db3;
+  color:#ffffff;
+  border-radius: 5px;
+}
+.bg{background-image: url("loginbg.jpg");height:100%;background-position:center;background-repeat: no-repeat;background-size: cover;}
